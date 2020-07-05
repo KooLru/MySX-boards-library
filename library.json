@@ -1,0 +1,19 @@
+{
+  "name": "MYSX.Boards",
+  "keywords": "mysx, mysensors",
+  "description": "MYSX boards supply library",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/KooLru/MySX-boards-library.git"
+  },
+  "version": "0.1.0",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "export": {
+    "exclude": [
+      ".ci",
+      "Doxyfile"
+    ]
+  }
+}
