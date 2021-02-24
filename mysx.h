@@ -37,5 +37,12 @@
 #endif
 
 
+#ifndef MYSX_SERIAL
+#define MYSX_SERIAL Serial
+#endif
+
+#ifndef MYSX_SPI
+#define MYSX_SPI SPI
+#endif
 
 #endif
