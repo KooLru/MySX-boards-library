@@ -41,8 +41,8 @@
 #include <Wire.h>
 
 
-#define PIN_SERIAL_RX       (MYSX_D1)
-#define PIN_SERIAL_TX       (MYSX_D2)
+//#define PIN_SERIAL_RX       (MYSX_D1)
+//#define PIN_SERIAL_TX       (MYSX_D2)
 
 
 //Button Pins                                                
