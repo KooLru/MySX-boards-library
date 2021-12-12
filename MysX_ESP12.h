@@ -1,4 +1,5 @@
 /* BOARD PINS */
+#define MYSX_ESP12E
 //#include "mysx.h"
 
 #include <Wire.h>
@@ -13,6 +14,7 @@
 #define MYSX_D4         2   	//  INT MYSX_D4_INT - Digital IO (interrupt)	
 #define MYSX_D5         16   	//  PWM MYSX_D5_PWM - Digital IO (PWM)
 #define MYSX_D6         10   	//  MYSX_D6_PWM - Digital IO (PWM)
+#define MYSX_D6_ALT     9   	//  MYSX_D6_PWM - Digital IO (PWM)
 #define MYSX_D7         5  	//  D7      A1 ???
 #define MYSX_D8         4  	//  D8      A2 ???
 #define MYSX_D9         A0   	//  MYSX_D9_A3 - Digital IO (analog input)
